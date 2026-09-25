@@ -1,762 +1,640 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <meta
     name="description"
-    content="Maestro — Toluwalase Adeniran. Virtual Assistant, Administrative Support and Business Operations professional."
-  >
+    content="Maestro — Toluwalase Adeniran. Virtual Assistant and Operations Support professional helping businesses stay organised, responsive and operational."
+  />
 
-  <title>Maestro | Toluwalase Adeniran</title>
+  <title>Maestro | Toluwalase Adeniran — Virtual Assistant & Operations Support</title>
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
 
   <!-- NAVIGATION -->
-  <header class="nav-wrap">
-    <nav class="nav container">
-
-      <a class="brand" href="#top">M.</a>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Maestro home">M.</a>
 
       <button
-        class="menu-btn"
-        aria-label="Toggle navigation"
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
         aria-expanded="false"
+        aria-controls="main-menu"
       >
-        ☰
+        <span></span>
+        <span></span>
       </button>
 
-      <div class="links">
+      <div class="nav-menu" id="main-menu">
         <a href="#about">About</a>
         <a href="#services">What I Do</a>
-        <a href="#experience">Experience</a>
-        <a href="#case-study">Case Study</a>
-        <a href="#skills">Toolkit</a>
+        <a href="#experience">Work</a>
+        <a href="#toolkit">Toolkit</a>
         <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">Let's talk ↗</a>
       </div>
-
     </nav>
   </header>
 
 
-  <main id="top">
+  <main>
 
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
 
-    <!-- =====================================================
-         HERO
-    ====================================================== -->
+        <div class="hero-copy reveal">
+          <p class="eyebrow">MAESTRO · OPERATIONS SUPPORT</p>
 
-    <section class="hero container">
+          <h1>
+            I make the
+            <span>moving parts</span>
+            move.
+          </h1>
 
-      <div class="hero-copy">
+          <p class="hero-intro">
+            I'm Toluwalase Adeniran — a Virtual Assistant and Operations
+            Support professional helping businesses stay organised,
+            responsive and operational.
+          </p>
 
-        <p class="eyebrow">
-          MAESTRO · REMOTE SUPPORT · OPERATIONS
-        </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">
+              Work with me <span>→</span>
+            </a>
 
-        <h1>
-          Making busy work
-          <span>work better.</span>
-        </h1>
-
-        <p class="lead">
-          I'm <strong>Toluwalase Adeniran</strong> — a Virtual Assistant
-          and Operations Support professional helping businesses stay
-          organised, responsive and moving.
-        </p>
-
-        <div class="actions">
-
-          <a class="btn primary" href="#contact">
-            Let's work together
-          </a>
-
-          <a class="btn secondary" href="#experience">
-            Explore my work
-          </a>
-
+            <a class="button button-secondary" href="#services">
+              See what I do <span>↓</span>
+            </a>
+          </div>
         </div>
 
-      </div>
+        <!-- HERO OPERATIONS VISUAL -->
+        <div class="hero-visual reveal" aria-label="Maestro operations overview">
 
+          <div class="orbit orbit-one">
+            <div class="orbit-card">
+              <span class="orbit-icon">◷</span>
+              <div>
+                <strong>Calendar</strong>
+                <small>Organised</small>
+              </div>
+            </div>
+          </div>
 
-      <div class="hero-card">
+          <div class="orbit orbit-two">
+            <div class="orbit-card">
+              <span class="orbit-icon">↗</span>
+              <div>
+                <strong>Workflow</strong>
+                <small>Moving</small>
+              </div>
+            </div>
+          </div>
 
-        <div class="orb"></div>
+          <div class="orbit orbit-three">
+            <div class="orbit-card">
+              <span class="orbit-icon">✓</span>
+              <div>
+                <strong>Follow-up</strong>
+                <small>Handled</small>
+              </div>
+            </div>
+          </div>
 
-        <div class="card-content">
+          <div class="maestro-mark">
+            <span>M.</span>
+            <small>MAESTRO</small>
+          </div>
 
-          <span>WHAT I BRING</span>
+          <div class="visual-line line-one"></div>
+          <div class="visual-line line-two"></div>
+          <div class="visual-line line-three"></div>
 
-          <strong>
-            Structure to the moving parts.
-          </strong>
-
-          <small>
-            Administration · Client Support · Data · Workflows
-          </small>
+          <div class="status-card">
+            <span class="status-dot"></span>
+            <span>Operations moving</span>
+          </div>
 
         </div>
-
       </div>
-
     </section>
 
 
+    <!-- IMPACT -->
+    <section class="impact section-dark">
+      <div class="container impact-grid">
 
-    <!-- =====================================================
-         IMPACT
-    ====================================================== -->
-
-    <section class="impact section">
-
-      <div class="container">
-
-        <div class="section-label">
-          THE NUMBERS
+        <div class="impact-item reveal">
+          <strong class="counter" data-target="6" data-suffix="+">0</strong>
+          <span>years experience</span>
         </div>
 
-        <div class="impact-grid">
+        <div class="impact-item reveal">
+          <strong class="counter" data-target="1" data-prefix="" data-suffix="M+">0</strong>
+          <span>datasets categorized</span>
+        </div>
 
-          <div class="impact-item">
-            <strong>6+</strong>
-            <span>Years of remote support experience</span>
-          </div>
+        <div class="impact-item reveal">
+          <strong class="counter" data-target="100" data-suffix="K+">0</strong>
+          <span>samples audited</span>
+        </div>
 
-          <div class="impact-item">
-            <strong>1M+</strong>
-            <span>Datasets categorized and labelled</span>
-          </div>
-
-          <div class="impact-item">
-            <strong>100K+</strong>
-            <span>Data samples audited</span>
-          </div>
-
-          <div class="impact-item">
-            <strong>92%</strong>
-            <span>Revenue increase contributed to</span>
-          </div>
-
+        <div class="impact-item reveal">
+          <strong class="counter" data-target="92" data-suffix="%">0</strong>
+          <span>revenue growth contributed to</span>
         </div>
 
       </div>
-
     </section>
 
 
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
 
-    <!-- =====================================================
-         ABOUT
-    ====================================================== -->
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 · ABOUT</p>
+          <h2>Good support should make work feel lighter.</h2>
+        </div>
 
-    <section id="about" class="section container">
-
-      <div class="section-label">
-        01 / ABOUT
-      </div>
-
-      <div class="two-col">
-
-        <h2>
-          Reliable support without the drama.
-        </h2>
-
-        <div>
+        <div class="about-content reveal">
+          <p class="large-copy">
+            The goal isn't simply to keep busy. It's to make sure the
+            right things happen, in the right order, without everything
+            depending on one person remembering everything.
+          </p>
 
           <p>
-            I help businesses handle the details that keep operations
-            moving: calendars, inboxes, bookings, customer communication,
-            data and day-to-day workflows.
+            I support the administrative, customer, data and workflow
+            details that keep remote operations moving — with clear
+            communication, careful execution and consistent follow-through.
           </p>
 
-          <p style="margin-top: 20px;">
-            My approach is practical. I learn the tools a team already
-            uses, keep information organised, communicate clearly and
-            follow things through.
-          </p>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         WHAT I DO
-    ====================================================== -->
-
-    <section id="services" class="section services-section">
-
-      <div class="container">
-
-        <div class="section-label">
-          02 / WHAT I DO
-        </div>
-
-        <h2>
-          The work behind<br>
-          <span>the work.</span>
-        </h2>
-
-
-        <div class="services-grid">
-
-
-          <article class="service-card">
-
-            <span class="service-number">01</span>
-
-            <h3>
-              Administrative Support
-            </h3>
-
-            <p>
-              Keep the day-to-day organised so important things don't
-              get buried in the details.
-            </p>
-
-            <div class="service-tags">
-              <span>Calendars</span>
-              <span>Inbox</span>
-              <span>Scheduling</span>
-              <span>Documentation</span>
-            </div>
-
-          </article>
-
-
-          <article class="service-card">
-
-            <span class="service-number">02</span>
-
-            <h3>
-              Customer &amp; Client Support
-            </h3>
-
-            <p>
-              Handle communication, follow-ups and client-facing
-              workflows with clarity and consistency.
-            </p>
-
-            <div class="service-tags">
-              <span>Communication</span>
-              <span>Bookings</span>
-              <span>Follow-up</span>
-              <span>Issue Resolution</span>
-            </div>
-
-          </article>
-
-
-          <article class="service-card">
-
-            <span class="service-number">03</span>
-
-            <h3>
-              Data &amp; Workflow Support
-            </h3>
-
-            <p>
-              Work carefully with information, processes and repetitive
-              workflows where accuracy matters.
-            </p>
-
-            <div class="service-tags">
-              <span>Data Handling</span>
-              <span>Reporting</span>
-              <span>Quality Checks</span>
-              <span>Workflow Support</span>
-            </div>
-
-          </article>
-
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         EXPERIENCE
-    ====================================================== -->
-
-    <section id="experience" class="section section-alt">
-
-      <div class="container">
-
-        <div class="section-label">
-          03 / EXPERIENCE
-        </div>
-
-        <div class="experience-intro">
-
-          <h2>
-            Experience that<br>
-            gets things moving.
-          </h2>
-
-          <p>
-            A combination of long-term remote operations support and
-            high-volume data work.
-          </p>
-
-        </div>
-
-
-        <div class="timeline">
-
-
-          <!-- AIKO -->
-
-          <article class="job">
-
-            <div class="job-date">
-              SEPT 2019<br>
-              — PRESENT
+          <div class="principles">
+            <div>
+              <span>01</span>
+              <strong>Organise.</strong>
+              <p>Put the moving parts in order.</p>
             </div>
 
             <div>
-
-              <p class="job-index">
-                01
-              </p>
-
-              <h3>
-                Virtual Assistant / Customer &amp; Operations Support
-              </h3>
-
-              <p class="company">
-                Aiko Professionals BPO
-              </p>
-
-              <p class="client">
-                Selected client account: HairbyNT
-              </p>
-
-              <p class="job-summary">
-                Providing remote administrative, customer and operations
-                support across day-to-day business workflows.
-              </p>
-
-              <ul>
-
-                <li>
-                  Improved first-response time to under one hour.
-                </li>
-
-                <li>
-                  Helped reduce monthly cancellations from 10+ to fewer than 5.
-                </li>
-
-                <li>
-                  Supported client retention growth from 20% to 72%.
-                </li>
-
-                <li>
-                  Contributed to a 92% increase in revenue.
-                </li>
-
-                <li>
-                  Manage client information, communications, scheduling,
-                  documentation and workflow-related tasks.
-                </li>
-
-              </ul>
-
+              <span>02</span>
+              <strong>Communicate.</strong>
+              <p>Keep people informed and aligned.</p>
             </div>
 
+            <div>
+              <span>03</span>
+              <strong>Follow through.</strong>
+              <p>Close the loop instead of leaving loose ends.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SERVICES -->
+    <section class="section services" id="services">
+      <div class="container">
+
+        <div class="section-heading split-heading reveal">
+          <div>
+            <p class="eyebrow">02 · WHAT I DO</p>
+            <h2>Support that keeps the work moving.</h2>
+          </div>
+
+          <p>
+            Click a service to see what sits underneath it.
+          </p>
+        </div>
+
+        <div class="service-grid">
+
+          <article class="service-card reveal">
+            <button class="service-trigger" type="button" aria-expanded="false">
+              <span class="service-number">01</span>
+
+              <span class="service-title">
+                <strong>Administrative Support</strong>
+                <small>Calendar · Inbox · Scheduling · Documentation</small>
+              </span>
+
+              <span class="expand-icon">+</span>
+            </button>
+
+            <div class="service-details">
+              <p>
+                Keep the everyday administrative workload organised,
+                visible and moving — from scheduling and inbox support
+                to documentation and follow-up.
+              </p>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <button class="service-trigger" type="button" aria-expanded="false">
+              <span class="service-number">02</span>
+
+              <span class="service-title">
+                <strong>Customer & Client Support</strong>
+                <small>Communication · Bookings · Follow-up · Resolution</small>
+              </span>
+
+              <span class="expand-icon">+</span>
+            </button>
+
+            <div class="service-details">
+              <p>
+                Support customers and clients with clear communication,
+                timely responses, booking coordination, follow-up and
+                practical issue resolution.
+              </p>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <button class="service-trigger" type="button" aria-expanded="false">
+              <span class="service-number">03</span>
+
+              <span class="service-title">
+                <strong>Data & Workflow Support</strong>
+                <small>Data · Reporting · Quality Checks · Processes</small>
+              </span>
+
+              <span class="expand-icon">+</span>
+            </button>
+
+            <div class="service-details">
+              <p>
+                Handle information carefully, support reporting and
+                quality checks, and help turn scattered workflow tasks
+                into clearer processes.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- EXPERIENCE -->
+    <section class="section experience section-dark" id="experience">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 · WORK</p>
+          <h2>How I've done it.</h2>
+        </div>
+
+        <div class="experience-list">
+
+          <!-- AIKO -->
+          <article class="experience-card reveal">
+
+            <button class="experience-trigger" type="button" aria-expanded="false">
+
+              <div class="experience-index">01</div>
+
+              <div class="experience-main">
+                <p class="experience-company">Aiko Professionals BPO</p>
+                <h3>Virtual Assistant / Customer & Operations Support</h3>
+                <p class="experience-meta">
+                  SEPT 2019 — PRESENT · Selected client account: HairbyNT
+                </p>
+              </div>
+
+              <span class="expand-icon">+</span>
+
+            </button>
+
+            <div class="experience-details">
+
+              <div class="experience-columns">
+
+                <div>
+                  <p>
+                    Provide remote administrative, customer and operations
+                    support across day-to-day business workflows.
+                  </p>
+
+                  <ul>
+                    <li>Manage client information, communications and scheduling.</li>
+                    <li>Support workflow-related tasks and timely follow-up.</li>
+                    <li>Handle data and documentation accurately and discreetly.</li>
+                    <li>Communicate professionally with clients and team members.</li>
+                  </ul>
+                </div>
+
+                <div class="metric-list">
+                  <div>
+                    <strong>&lt;1 hr</strong>
+                    <span>first-response time</span>
+                  </div>
+
+                  <div>
+                    <strong>20% → 72%</strong>
+                    <span>client retention</span>
+                  </div>
+
+                  <div>
+                    <strong>10+ → &lt;5</strong>
+                    <span>monthly cancellations</span>
+                  </div>
+
+                  <div>
+                    <strong>+92%</strong>
+                    <span>revenue growth</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </article>
 
 
           <!-- HUGO -->
+          <article class="experience-card reveal">
 
-          <article class="job">
+            <button class="experience-trigger" type="button" aria-expanded="false">
 
-            <div class="job-date">
-              JUN 2023<br>
-              — PRESENT
+              <div class="experience-index">02</div>
+
+              <div class="experience-main">
+                <p class="experience-company">Hugo Company Ltd.</p>
+                <h3>Data Annotator</h3>
+                <p class="experience-meta">
+                  JUN 2023 — PRESENT
+                </p>
+              </div>
+
+              <span class="expand-icon">+</span>
+
+            </button>
+
+            <div class="experience-details">
+
+              <div class="experience-columns">
+
+                <div>
+                  <p>
+                    Categorise and label large-scale datasets used in
+                    large language model training while maintaining
+                    consistency and adherence to project guidelines.
+                  </p>
+
+                  <ul>
+                    <li>Categorised and labelled 1,000,000+ diverse datasets.</li>
+                    <li>Audited 100,000+ data samples.</li>
+                    <li>Applied detailed quality checks for accuracy and consistency.</li>
+                    <li>Collaborated with other annotators on project requirements.</li>
+                  </ul>
+                </div>
+
+                <div class="metric-list">
+                  <div>
+                    <strong>1M+</strong>
+                    <span>datasets categorised</span>
+                  </div>
+
+                  <div>
+                    <strong>100K+</strong>
+                    <span>samples audited</span>
+                  </div>
+                </div>
+
+              </div>
             </div>
-
-            <div>
-
-              <p class="job-index">
-                02
-              </p>
-
-              <h3>
-                Data Annotator
-              </h3>
-
-              <p class="company">
-                Hugo Company Ltd.
-              </p>
-
-              <p class="job-summary">
-                Producing and auditing high-volume training data for
-                large language model development.
-              </p>
-
-              <ul>
-
-                <li>
-                  Categorized and labelled 1,000,000+ diverse datasets
-                  for LLM training.
-                </li>
-
-                <li>
-                  Collaborated with annotators to produce high-quality
-                  training data.
-                </li>
-
-                <li>
-                  Audited 100,000+ data samples for accuracy and consistency.
-                </li>
-
-                <li>
-                  Applied detailed quality checks in line with project
-                  requirements.
-                </li>
-
-              </ul>
-
-            </div>
-
           </article>
 
-
         </div>
-
       </div>
-
     </section>
 
 
-
-    <!-- =====================================================
-         CASE STUDY
-    ====================================================== -->
-
-    <section id="case-study" class="section case-study">
-
+    <!-- CASE STUDY -->
+    <section class="case-study section" id="case-study">
       <div class="container">
 
-        <div class="section-label">
-          04 / SELECTED WORK
-        </div>
+        <div class="case-header reveal">
+          <p class="eyebrow">04 · SELECTED CLIENT IMPACT</p>
 
-        <div class="case-header">
-
-          <div>
-
-            <p class="case-kicker">
-              CLIENT ACCOUNT · AIKO PROFESSIONALS BPO
-            </p>
-
-            <h2>
-              HairbyNT
-            </h2>
-
-          </div>
+          <h2>Turning support into measurable impact.</h2>
 
           <p>
-            Client support and operations work focused on responsiveness,
-            retention and business performance.
+            <strong>HairbyNT — Selected Client Account at Aiko Professionals BPO</strong>
           </p>
+
+          <p>
+            A client account where administrative, customer and workflow
+            support translated into measurable changes across response
+            time, cancellations, retention and revenue.
+          </p>
+        </div>
+
+        <div class="case-metrics">
+
+          <div class="case-metric reveal">
+            <strong>&lt;1 hr</strong>
+            <span>first-response time</span>
+          </div>
+
+          <div class="case-metric reveal">
+            <strong>&lt;5</strong>
+            <span>monthly cancellations</span>
+          </div>
+
+          <div class="case-metric reveal">
+            <strong>72%</strong>
+            <span>client retention</span>
+          </div>
+
+          <div class="case-metric reveal">
+            <strong>+92%</strong>
+            <span>revenue growth</span>
+          </div>
 
         </div>
 
-
-        <div class="case-grid">
-
-
-          <div class="case-main">
-
-            <span class="case-label">
-              THE CHALLENGE
-            </span>
-
-            <h3>
-              Keep the customer experience moving while reducing
-              avoidable friction.
-            </h3>
-
-            <p>
-              My work across the account involved customer communication,
-              scheduling, follow-up, information management and the
-              operational details behind the client experience.
-            </p>
-
+        <div class="case-bottom reveal">
+          <div>
+            <p class="eyebrow">WHAT I WORKED ON</p>
           </div>
 
-
-          <div class="case-results">
-
-            <span class="case-label">
-              SELECTED OUTCOMES
-            </span>
-
-
-            <div class="result">
-
-              <strong>
-                &lt; 1 hr
-              </strong>
-
-              <span>
-                First-response time
-              </span>
-
-            </div>
-
-
-            <div class="result">
-
-              <strong>
-                &lt; 5
-              </strong>
-
-              <span>
-                Monthly cancellations
-              </span>
-
-            </div>
-
-
-            <div class="result">
-
-              <strong>
-                72%
-              </strong>
-
-              <span>
-                Client retention
-              </span>
-
-            </div>
-
-
-            <div class="result">
-
-              <strong>
-                +92%
-              </strong>
-
-              <span>
-                Revenue growth
-              </span>
-
-            </div>
-
+          <div class="case-tags">
+            <span>Customer communication</span>
+            <span>Scheduling</span>
+            <span>Follow-up</span>
+            <span>Information management</span>
+            <span>Workflow support</span>
           </div>
-
         </div>
 
       </div>
-
     </section>
 
 
+    <!-- TOOLKIT -->
+    <section class="section toolkit" id="toolkit">
+      <div class="container">
 
-    <!-- =====================================================
-         TOOLKIT
-    ====================================================== -->
+        <div class="section-heading reveal">
+          <p class="eyebrow">05 · TOOLKIT</p>
+          <h2>Tools are useful. Knowing how to use them is better.</h2>
+        </div>
 
-    <section id="skills" class="section container">
+        <div class="tool-tabs reveal" role="tablist" aria-label="Toolkit categories">
 
-      <div class="section-label">
-        05 / TOOLKIT
+          <button class="tool-tab active" type="button" data-category="communication" role="tab">
+            Communication
+          </button>
+
+          <button class="tool-tab" type="button" data-category="productivity" role="tab">
+            Productivity
+          </button>
+
+          <button class="tool-tab" type="button" data-category="organisation" role="tab">
+            Organisation
+          </button>
+
+          <button class="tool-tab" type="button" data-category="data" role="tab">
+            Data
+          </button>
+
+          <button class="tool-tab" type="button" data-category="workflow" role="tab">
+            Workflow
+          </button>
+
+          <button class="tool-tab" type="button" data-category="creative" role="tab">
+            Creative
+          </button>
+
+        </div>
+
+        <div class="tool-grid">
+
+          <div class="tool-item" data-category="communication">Gmail</div>
+          <div class="tool-item" data-category="communication">Outlook</div>
+          <div class="tool-item" data-category="communication">Slack</div>
+          <div class="tool-item" data-category="communication">Discord</div>
+          <div class="tool-item" data-category="communication">WhatsApp Business</div>
+          <div class="tool-item" data-category="communication">Zoom</div>
+          <div class="tool-item" data-category="communication">Google Meet</div>
+
+          <div class="tool-item" data-category="productivity">Google Docs</div>
+          <div class="tool-item" data-category="productivity">Microsoft Word</div>
+          <div class="tool-item" data-category="productivity">Google Slides</div>
+          <div class="tool-item" data-category="productivity">PowerPoint</div>
+          <div class="tool-item" data-category="productivity">Excel</div>
+          <div class="tool-item" data-category="productivity">Google Sheets</div>
+
+          <div class="tool-item" data-category="organisation">Google Drive</div>
+          <div class="tool-item" data-category="organisation">OneDrive</div>
+          <div class="tool-item" data-category="organisation">Notion</div>
+          <div class="tool-item" data-category="organisation">Typeform</div>
+          <div class="tool-item" data-category="organisation">Airtable</div>
+
+          <div class="tool-item" data-category="data">Power BI</div>
+          <div class="tool-item" data-category="data">Tableau</div>
+          <div class="tool-item" data-category="data">Excel</div>
+          <div class="tool-item" data-category="data">Google Sheets</div>
+          <div class="tool-item" data-category="data">Data handling</div>
+          <div class="tool-item" data-category="data">Reporting</div>
+
+          <div class="tool-item" data-category="workflow">Client booking</div>
+          <div class="tool-item" data-category="workflow">Calendar management</div>
+          <div class="tool-item" data-category="workflow">Inbox management</div>
+          <div class="tool-item" data-category="workflow">Workflow support</div>
+          <div class="tool-item" data-category="workflow">UiPath</div>
+
+          <div class="tool-item" data-category="creative">Canva</div>
+          <div class="tool-item" data-category="creative">Presentation support</div>
+          <div class="tool-item" data-category="creative">Digital content preparation</div>
+
+        </div>
       </div>
+    </section>
 
-      <div class="toolkit-header">
 
-        <h2>
-          Tools are tools.<br>
-          Knowing how to use them isn't.
-        </h2>
+    <!-- HOW I WORK -->
+    <section class="section process section-dark" id="process">
+      <div class="container">
 
-        <p>
-          Comfortable working across communication, productivity,
-          organisation, data and workflow platforms.
+        <div class="section-heading split-heading reveal">
+          <div>
+            <p class="eyebrow">06 · HOW I WORK</p>
+            <h2>Simple enough to understand. Structured enough to work.</h2>
+          </div>
+        </div>
+
+        <div class="process-grid">
+
+          <div class="process-step reveal">
+            <span>01</span>
+            <h3>Understand</h3>
+            <p>Get clear on the task.</p>
+          </div>
+
+          <div class="process-step reveal">
+            <span>02</span>
+            <h3>Organise</h3>
+            <p>Put the moving parts in order.</p>
+          </div>
+
+          <div class="process-step reveal">
+            <span>03</span>
+            <h3>Execute</h3>
+            <p>Do the work carefully.</p>
+          </div>
+
+          <div class="process-step reveal">
+            <span>04</span>
+            <h3>Follow through</h3>
+            <p>Close the loop.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container contact-inner reveal">
+
+        <p class="eyebrow">07 · CONTACT</p>
+
+        <h2>Got something that needs moving?</h2>
+
+        <p class="contact-copy">
+          Let’s talk.
         </p>
 
-      </div>
+        <div class="contact-actions">
 
-
-      <div class="skill-grid">
-
-
-        <div>
-          <h3>Communication</h3>
-
-          <p>
-            Gmail · Outlook · Slack · Discord · WhatsApp Business ·
-            Zoom · Google Meet
-          </p>
-        </div>
-
-
-        <div>
-          <h3>Productivity</h3>
-
-          <p>
-            Google Docs · Microsoft Word · Google Slides · PowerPoint ·
-            Excel · Google Sheets
-          </p>
-        </div>
-
-
-        <div>
-          <h3>Organisation</h3>
-
-          <p>
-            Google Drive · OneDrive · Notion · Typeform · Airtable
-          </p>
-        </div>
-
-
-        <div>
-          <h3>Data &amp; Analytics</h3>
-
-          <p>
-            Power BI · Tableau · Excel · Google Sheets · Data handling ·
-            Reporting
-          </p>
-        </div>
-
-
-        <div>
-          <h3>Workflow</h3>
-
-          <p>
-            Client booking · Calendar management · Inbox management ·
-            Workflow support · UiPath
-          </p>
-        </div>
-
-
-        <div>
-          <h3>Creative</h3>
-
-          <p>
-            Canva · Presentation support · Digital content preparation
-          </p>
-        </div>
-
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         PERSONAL APPROACH
-    ====================================================== -->
-
-    <section class="section approach">
-
-      <div class="container">
-
-        <div class="approach-inner">
-
-          <div>
-
-            <div class="section-label">
-              HOW I WORK
-            </div>
-
-            <h2>
-              Clear communication.<br>
-              Careful execution.
-            </h2>
-
-          </div>
-
-
-          <div class="approach-list">
-
-            <div>
-              <strong>01</strong>
-              <span>Understand the task.</span>
-            </div>
-
-            <div>
-              <strong>02</strong>
-              <span>Organise the moving parts.</span>
-            </div>
-
-            <div>
-              <strong>03</strong>
-              <span>Do the work carefully.</span>
-            </div>
-
-            <div>
-              <strong>04</strong>
-              <span>Follow through.</span>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =====================================================
-         CONTACT
-    ====================================================== -->
-
-    <section id="contact" class="contact section">
-
-      <div class="container contact-inner">
-
-        <div>
-
-          <div class="section-label">
-            06 / CONTACT
-          </div>
-
-          <h2>
-            Have work<br>
-            that needs doing?
-          </h2>
-
-          <p>
-            Let's talk about what you need help with.
-          </p>
-
-          <p>
-            <strong>Toluwalase Adeniran</strong> · Maestro
-          </p>
-
-        </div>
-
-
-        <div class="actions">
-
-          <a
-            class="btn primary"
-            href="mailto:adetolu.tj2@gmail.com"
-          >
+          <a class="button button-primary" href="mailto:adetolu.tj2@gmail.com">
             Email me ↗
           </a>
 
-
           <a
-            class="btn secondary"
+            class="button button-secondary"
             href="https://www.linkedin.com/in/tolujadeniran"
             target="_blank"
             rel="noopener noreferrer"
@@ -764,33 +642,44 @@
             LinkedIn ↗
           </a>
 
+          <a
+            class="button button-secondary"
+            href="Tolu-Joshua-Adeniran-CV.pdf"
+            download
+          >
+            Download CV ↓
+          </a>
+
         </div>
 
       </div>
-
     </section>
-
 
   </main>
 
 
-
   <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
 
-  <footer class="footer container">
+      <div class="footer-brand">
+        <span class="footer-logo">M.</span>
 
-    <span>
-      © <span id="year"></span> Maestro
-    </span>
+        <div>
+          <strong>Maestro</strong>
+          <span>Toluwalase Adeniran</span>
+        </div>
+      </div>
 
-    <span>
-      Toluwalase Adeniran · Built for the web. No fuss.
-    </span>
+      <div class="footer-meta">
+        <span>© <span id="year"></span></span>
+        <span>Built with HTML, CSS & JavaScript</span>
+      </div>
 
+    </div>
   </footer>
 
 
   <script src="script.js"></script>
-
 </body>
 </html>
